@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloGithubApplication {
 
 	public static void main(String[] args) {
+		System.out.println("<---------------------started------------------->");
 		SpringApplication.run(HelloGithubApplication.class, args);
 	}
 
